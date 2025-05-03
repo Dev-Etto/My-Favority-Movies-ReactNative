@@ -1,31 +1,58 @@
-Projeto: My Favority Movies (React Native com Expo)
-Descrição
-Este projeto é um aplicativo móvel desenvolvido em React Native com Expo, que permite aos usuários favoritar vídeos de diferentes plataformas de streaming. O aplicativo ainda está em produção e atualmente está aproximadamente em 50% de progresso.
+# StreamHub
 
-Funcionalidades
-Favoritação de Vídeos: Os usuários podem favoritar vídeos de diferentes plataformas de streaming para acesso rápido e fácil posteriormente.
-Navegação Intuitiva: Interface intuitiva e fácil de usar para navegar pelos vídeos favoritados e descobrir novos conteúdos.
-Integração com Plataformas de Streaming: Integração com plataformas populares de streaming para acessar e favoritar vídeos diretamente do aplicativo.
-Progresso Atual
-O desenvolvimento do aplicativo está atualmente em 50% de progresso. Algumas das funcionalidades principais foram implementadas, mas ainda há trabalho a ser feito para finalizar e aprimorar a experiência do usuário.
+## Descrição
+O **StreamHub** é um aplicativo móvel desenvolvido em [React Native](https://reactnative.dev/) com [Expo](https://expo.dev/). Ele permite aos usuários favoritar vídeos de diferentes plataformas de streaming, oferecendo uma navegação intuitiva e integração com serviços populares.
 
-Como Contribuir
-Se você estiver interessado em contribuir para o desenvolvimento deste aplicativo, sinta-se à vontade para fazer um fork do repositório e enviar pull requests com melhorias, correções de bugs ou novas funcionalidades. Certifique-se de seguir as diretrizes de contribuição especificadas no arquivo CONTRIBUTING.md.
+Este projeto foi desenvolvido como forma de estudo, com o objetivo de entender e me aperfeiçoar na tecnologia.
 
-Instalação e Execução
-Para executar o aplicativo localmente, siga estas etapas:
+## Funcionalidades
+- **Favoritação de Vídeos**: Salve vídeos de plataformas de streaming para acesso rápido.
+- **Navegação Intuitiva**: Interface amigável para explorar e gerenciar seus vídeos favoritos.
+- **Integração com Plataformas de Streaming**: Acesse e favorite vídeos diretamente do aplicativo.
 
-Clone este repositório para o seu ambiente local.
-Navegue até o diretório do projeto no seu terminal.
-Execute npm install para instalar as dependências do projeto.
-Execute expo start para iniciar o servidor de desenvolvimento do Expo.
-Use o aplicativo Expo Go em seu dispositivo móvel para escanear o código QR fornecido ou execute um emulador para visualizar o aplicativo.
-Certifique-se de ter o ambiente de desenvolvimento React Native configurado corretamente em sua máquina antes de executar essas etapas.
+## Progresso Atual
+O desenvolvimento está **50% concluído**. Algumas funcionalidades principais já foram implementadas, mas melhorias e novos recursos ainda estão em andamento.
 
-Tecnologias Utilizadas
-React Native com Expo: Framework e ferramenta para desenvolvimento de aplicativos móveis.
-JavaScript/TypeScript: Linguagens de programação utilizadas para escrever o código do aplicativo.
-Outras Dependências: Axios, React Navigation, etc.
+## Instalação e Execução
+Siga os passos abaixo para executar o aplicativo localmente:
 
-Aviso Legal
-Este aplicativo está em desenvolvimento e pode conter bugs ou problemas de desempenho. Use por sua própria conta e risco.
+1. Clone este repositório:
+   ```bash
+   git clone <URL_DO_REPOSITORIO>
+   ```
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd StreamHub
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+4. Inicie o servidor de desenvolvimento do Expo:
+   ```bash
+   expo start
+   ```
+5. Use o aplicativo [Expo Go](https://expo.dev/client) no seu dispositivo móvel para escanear o código QR ou execute um emulador para visualizar o aplicativo.
+
+> **Nota**: Certifique-se de ter o ambiente de desenvolvimento React Native configurado corretamente. Consulte a [documentação oficial](https://reactnative.dev/docs/environment-setup) para mais detalhes.
+
+## Tecnologias Utilizadas
+- [React Native](https://reactnative.dev/): Framework para desenvolvimento de aplicativos móveis.
+- [Expo](https://expo.dev/): Ferramenta para simplificar o desenvolvimento com React Native.
+- [TypeScript](https://www.typescriptlang.org/): Superset do JavaScript que adiciona tipagem estática.
+- Outras dependências: [Axios](https://axios-http.com/), [React Navigation](https://reactnavigation.org/), entre outras.
+
+## Como Contribuir
+Contribuições são bem-vindas! Siga os passos abaixo para colaborar:
+
+1. Faça um fork do repositório.
+2. Crie uma branch para sua feature ou correção:
+   ```bash
+   git checkout -b minha-feature
+   ```
+3. Envie suas alterações via pull request.
+
+Certifique-se de seguir as diretrizes de contribuição especificadas no arquivo `CONTRIBUTING.md`.
+
+## Licença
+Este projeto está licenciado sob a Licença [MIT](./LICENSE). Sinta-se à vontade para usá-lo e modificá-lo conforme necessário.

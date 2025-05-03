@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "movies",
-    "slug": "movies",
+    "name": "streamhub",
+    "slug": "streamhub",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
